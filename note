@@ -1,0 +1,16 @@
+Algorithmen:
+	1. Linear Regression (standard Fall)
+	2. Lasso Regression (Feature Selection)
+		2.1. Lambda für Kostenfunktion
+	3. Ridge Regression (avoid overfitting)
+		3.1. Lambda für Kostenfunktionen
+	4. KNN Regression (verschiedener Ansatz)
+		4.1. Anzahl an Nachbarn
+		4.2. Weights for Distance
+
+Experiments:
+	1. Gradient Descent vs. Analytical Solution
+	2. Scaling
+	3. Missing Values (Mean/Median/Most frequent, Drop)
+
+Performance Measurements: Alle von letzter Folie mit 10 Fold Cross Falidation
