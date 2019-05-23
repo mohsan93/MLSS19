@@ -1,0 +1,322 @@
+scaling=minmax, pca_ind=True, pca_c=14, imputing=mean
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+R2:  0.6109306560118016
+MAE:  0.05274322142129315
+MSE:  0.0061021808170681
+RMSE:  0.07779013966359431
+------------------------ 0.01894998550415039 seconds --------------------------------------------
+SGDRegressor(alpha=0.0001, average=False, epsilon=0.1, eta0=0.01,
+       fit_intercept=True, l1_ratio=0.15, learning_rate='invscaling',
+       loss='squared_loss', max_iter=100, n_iter=None, penalty='l2',
+       power_t=0.25, random_state=None, shuffle=True, tol=None, verbose=0,
+       warm_start=False)
+R2:  0.6108824185219268
+MAE:  0.05274673853838492
+MSE:  0.006103539568150273
+RMSE:  0.07779795139710038
+------------------------ 89.68596768379211 seconds --------------------------------------------
+Lasso(alpha=0.0001, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+R2:  0.6110163266592269
+MAE:  0.05265529786494827
+MSE:  0.006102685437231203
+RMSE:  0.07778795425061777
+------------------------ 0.03889632225036621 seconds --------------------------------------------
+Ridge(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+R2:  0.610944520329997
+MAE:  0.05274145285676657
+MSE:  0.006102090101057075
+RMSE:  0.07778921670281548
+------------------------ 0.030916929244995117 seconds --------------------------------------------
+KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=14, p=2,
+          weights='distance')
+R2:  0.6083444281174751
+MAE:  0.05094514619553604
+MSE:  0.006175436483430908
+RMSE:  0.07815566057988399
+------------------------ 3.1177144050598145 seconds --------------------------------------------
+scaling=minmax, pca_ind=True, pca_c=14, imputing=median
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+R2:  0.6108806099336809
+MAE:  0.052744363767962946
+MSE:  0.006102859231750882
+RMSE:  0.07779481095103644
+------------------------ 0.016953229904174805 seconds --------------------------------------------
+SGDRegressor(alpha=0.0001, average=False, epsilon=0.1, eta0=0.01,
+       fit_intercept=True, l1_ratio=0.15, learning_rate='invscaling',
+       loss='squared_loss', max_iter=100, n_iter=None, penalty='l1',
+       power_t=0.25, random_state=None, shuffle=True, tol=None, verbose=0,
+       warm_start=False)
+R2:  0.6109710046198471
+MAE:  0.052659525154253685
+MSE:  0.00610391968446315
+RMSE:  0.07779467593165224
+------------------------ 89.96226096153259 seconds --------------------------------------------
+Lasso(alpha=0.0001, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+R2:  0.6109664580696436
+MAE:  0.05265675455149828
+MSE:  0.00610335622893956
+RMSE:  0.07779256013521552
+------------------------ 0.03286004066467285 seconds --------------------------------------------
+Ridge(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+R2:  0.6108944634528359
+MAE:  0.05274267687898078
+MSE:  0.006102768784080878
+RMSE:  0.07779388961390804
+------------------------ 0.030917644500732422 seconds --------------------------------------------
+KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+          weights='distance')
+R2:  0.6076650608153604
+MAE:  0.05100749163565839
+MSE:  0.006171187242076273
+RMSE:  0.0781793148285975
+------------------------ 3.1187047958374023 seconds --------------------------------------------
+scaling=minmax, pca_ind=False, pca_c=0, imputing=mean
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+R2:  0.5907315948693239
+MAE:  0.04936461223178094
+MSE:  0.006849904886636932
+RMSE:  0.0787981867811285
+------------------------ 0.1415865421295166 seconds --------------------------------------------
+SGDRegressor(alpha=0.0001, average=False, epsilon=0.1, eta0=0.01,
+       fit_intercept=True, l1_ratio=0.15, learning_rate='invscaling',
+       loss='squared_loss', max_iter=10000, n_iter=None, penalty='l1',
+       power_t=0.25, random_state=None, shuffle=True, tol=None, verbose=0,
+       warm_start=False)
+R2:  0.6791598243032391
+MAE:  0.04686146083158651
+MSE:  0.005036220338332002
+RMSE:  0.07062103484867621
+------------------------ 494.94384384155273 seconds --------------------------------------------
+Lasso(alpha=0.0001, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+R2:  0.679236292498209
+MAE:  0.0468800206529938
+MSE:  0.005035777742082356
+RMSE:  0.07061466079899749
+------------------------ 0.30517005920410156 seconds --------------------------------------------
+Ridge(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+R2:  0.6503875791401899
+MAE:  0.0480957319399565
+MSE:  0.005630224752821104
+RMSE:  0.0737441778549075
+------------------------ 0.15621352195739746 seconds --------------------------------------------
+KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=16, p=2,
+          weights='distance')
+R2:  0.6091020733327093
+MAE:  0.05076051798647206
+MSE:  0.006182199853286967
+RMSE:  0.07813627141080548
+------------------------ 26.887378931045532 seconds --------------------------------------------
+scaling=minmax, pca_ind=False, pca_c=0, imputing=median
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+R2:  0.5893907150677355
+MAE:  0.04937502451299415
+MSE:  0.0068749246690279
+RMSE:  0.07891413800590269
+------------------------ 0.12494635581970215 seconds --------------------------------------------
+SGDRegressor(alpha=0.0001, average=False, epsilon=0.1, eta0=0.01,
+       fit_intercept=True, l1_ratio=0.15, learning_rate='invscaling',
+       loss='squared_loss', max_iter=1000, n_iter=None,
+       penalty='elasticnet', power_t=0.25, random_state=None, shuffle=True,
+       tol=None, verbose=0, warm_start=False)
+R2:  0.6791491904221215
+MAE:  0.04727069229307969
+MSE:  0.005038983026266375
+RMSE:  0.07065145485981711
+------------------------ 318.5380530357361 seconds --------------------------------------------
+Lasso(alpha=0.0001, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+R2:  0.6784845082342865
+MAE:  0.046893626041299
+MSE:  0.00504724875431949
+RMSE:  0.07069762537114099
+------------------------ 0.31242871284484863 seconds --------------------------------------------
+Ridge(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+R2:  0.6495847389792548
+MAE:  0.04810014982507315
+MSE:  0.005643527087983311
+RMSE:  0.07383011741565956
+------------------------ 0.15621209144592285 seconds --------------------------------------------
+KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=16, p=2,
+          weights='distance')
+R2:  0.6090039337177896
+MAE:  0.050766657198915835
+MSE:  0.006182632768949802
+RMSE:  0.07814268926479456
+------------------------ 27.83317542076111 seconds --------------------------------------------
+scaling=standard, pca_ind=True, pca_c=14, imputing=mean
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+R2:  0.5924825060256421
+MAE:  0.41186423324486343
+MSE:  0.41687131006139266
+RMSE:  0.6320800077221918
+------------------------ 0.019084930419921875 seconds --------------------------------------------
+SGDRegressor(alpha=0.0001, average=False, epsilon=0.1, eta0=0.01,
+       fit_intercept=True, l1_ratio=0.15, learning_rate='invscaling',
+       loss='huber', max_iter=10, n_iter=None, penalty='none',
+       power_t=0.25, random_state=None, shuffle=True, tol=None, verbose=0,
+       warm_start=False)
+R2:  0.5873964440764057
+MAE:  0.393468205809023
+MSE:  0.42033149261963765
+RMSE:  0.6372716509640889
+------------------------ 98.78580784797668 seconds --------------------------------------------
+Lasso(alpha=0.01, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+R2:  0.6053398847454867
+MAE:  0.4096355017887623
+MSE:  0.3996311807585899
+RMSE:  0.6230331922613551
+------------------------ 0.031242847442626953 seconds --------------------------------------------
+Ridge(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+R2:  0.5924878448342958
+MAE:  0.41186323126189117
+MSE:  0.4168643681239412
+RMSE:  0.6320763914084464
+------------------------ 0.031243324279785156 seconds --------------------------------------------
+
+KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=12, p=2,
+          weights='distance')
+R2:  0.6082593380092741
+MAE:  0.3998291496740219
+MSE:  0.38926535289384734
+RMSE:  0.6208205369075499
+------------------------ 3.787679672241211 seconds --------------------------------------------
+scaling=standard, pca_ind=True, pca_c=14, imputing=median
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+R2:  0.5919248462336629
+MAE:  0.41160160115766714
+MSE:  0.4177154570971159
+RMSE:  0.6324143392505011
+------------------------ 0.015620946884155273 seconds --------------------------------------------
+SGDRegressor(alpha=0.0001, average=False, epsilon=0.1, eta0=0.01,
+       fit_intercept=True, l1_ratio=0.15, learning_rate='invscaling',
+       loss='huber', max_iter=10, n_iter=None, penalty='elasticnet',
+       power_t=0.25, random_state=None, shuffle=True, tol=None, verbose=0,
+       warm_start=False)
+R2:  0.5861846696901649
+MAE:  0.3950615988555535
+MSE:  0.4222198476514897
+RMSE:  0.6382011299125376
+------------------------ 91.32164907455444 seconds --------------------------------------------
+Lasso(alpha=0.01, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+R2:  0.605482597279833
+MAE:  0.40929142182991196
+MSE:  0.39953146484591306
+RMSE:  0.6229076355516661
+------------------------ 0.04686450958251953 seconds --------------------------------------------
+Ridge(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+R2:  0.5919303163710508
+MAE:  0.41160057504870773
+MSE:  0.41770833766453175
+RMSE:  0.6324106533239167
+------------------------ 0.03124260902404785 seconds --------------------------------------------
+KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=12, p=2,
+          weights='distance')
+R2:  0.6088636038663661
+MAE:  0.3994930228027823
+MSE:  0.3886552185376838
+RMSE:  0.6203177408440439
+------------------------ 3.697833776473999 seconds --------------------------------------------
+scaling=standard, pca_ind=False, pca_c=0, imputing=mean
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+R2:  0.5867530744453842
+MAE:  0.39334809667674897
+MSE:  0.43570496679485815
+RMSE:  0.6286723281907145
+------------------------ 0.15621232986450195 seconds --------------------------------------------
+SGDRegressor(alpha=0.0001, average=False, epsilon=0.1, eta0=0.01,
+       fit_intercept=True, l1_ratio=0.15, learning_rate='invscaling',
+       loss='huber', max_iter=100, n_iter=None, penalty='elasticnet',
+       power_t=0.25, random_state=None, shuffle=True, tol=None, verbose=0,
+       warm_start=False)
+R2:  0.6363602177925769
+MAE:  0.3636756488760684
+MSE:  0.3735464921810915
+RMSE:  0.5970089236528116
+------------------------ 361.9652271270752 seconds --------------------------------------------
+
+Lasso(alpha=0.01, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+R2:  0.6667745067418933
+MAE:  0.3729873059490637
+MSE:  0.33422546954403026
+RMSE:  0.5723855322993863
+------------------------ 0.5529623031616211 seconds --------------------------------------------
+Ridge(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+R2:  0.5914449945434173
+MAE:  0.3915943026099509
+MSE:  0.43132356601764704
+RMSE:  0.625224010234731
+------------------------ 0.15932178497314453 seconds --------------------------------------------
+KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=16, p=2,
+          weights='distance')
+R2:  0.6040074254707611
+MAE:  0.395308585269019
+MSE:  0.3958736657264078
+RMSE:  0.6248314989778635
+------------------------ 33.38043546676636 seconds --------------------------------------------
+scaling=standard, pca_ind=False, pca_c=0, imputing=median
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+R2:  0.5896120810769805
+MAE:  0.392780121631661
+MSE:  0.43353133906934416
+RMSE:  0.6265273608607279
+------------------------ 0.13144850730895996 seconds --------------------------------------------
+SGDRegressor(alpha=0.0001, average=False, epsilon=0.1, eta0=0.01,
+       fit_intercept=True, l1_ratio=0.15, learning_rate='invscaling',
+       loss='huber', max_iter=10, n_iter=None, penalty='l1', power_t=0.25,
+       random_state=None, shuffle=True, tol=None, verbose=0,
+       warm_start=False)
+R2:  0.6397950454871912
+MAE:  0.3656569033604237
+MSE:  0.3649219447925952
+RMSE:  0.5958399778905752
+------------------------ 369.2890667915344 seconds --------------------------------------------
+Lasso(alpha=0.01, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+R2:  0.6658326714868681
+MAE:  0.3730220148465187
+MSE:  0.335165569084612
+RMSE:  0.5732015522198515
+------------------------ 0.6334657669067383 seconds --------------------------------------------
+Ridge(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+R2:  0.5901531934513368
+MAE:  0.39170572776908574
+MSE:  0.43283013825313654
+RMSE:  0.6261233809141433
+------------------------ 0.3229391574859619 seconds --------------------------------------------
+KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=16, p=2,
+          weights='distance')
+R2:  0.6036548726758164
+MAE:  0.39541880432395776
+MSE:  0.39620197365490684
+RMSE:  0.6251235962705823
+------------------------ 38.76746320724487 seconds --------------------------------------------

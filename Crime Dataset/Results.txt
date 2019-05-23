@@ -1,0 +1,217 @@
+scaling=minmax, pca_ind=True, pca_c=14, imputing=mean
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+{'fit_time': 0.0007979154586791992, 'score_time': 0.0005983352661132812, 'test_explained_variance': 0.6126056748898739, 'test_r2': 0.6108829156336709, 'test_neg_mean_squared_error': 0.006102940687349605, 'test_neg_mean_absolute_error': 0.05274845798187668}
+--- 0.02393507957458496 seconds ---
+SGDRegressor(alpha=0.0001, average=False, epsilon=0.1, eta0=0.01,
+       fit_intercept=True, l1_ratio=0.15, learning_rate='invscaling',
+       loss='squared_loss', max_iter=100, n_iter=None,
+       penalty='elasticnet', power_t=0.25, random_state=None, shuffle=True,
+       tol=None, verbose=0, warm_start=False)
+{'fit_time': 0.029819560050964356, 'score_time': 0.0007952690124511719, 'test_explained_variance': 0.6127637894458553, 'test_r2': 0.611048937140824, 'test_neg_mean_squared_error': 0.006101540173428928, 'test_neg_mean_absolute_error': 0.05272039954304184}
+--- 87.92695021629333 seconds ---
+Lasso(alpha=0.0001, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+{'fit_time': 0.0005985260009765625, 'score_time': 0.0006979465484619141, 'test_explained_variance': 0.6127073705771453, 'test_r2': 0.610960149040236, 'test_neg_mean_squared_error': 0.006103576898097173, 'test_neg_mean_absolute_error': 0.05266096828181767}
+--- 0.035820960998535156 seconds ---
+Ridge(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+{'fit_time': 0.0004985332489013672, 'score_time': 0.0004986763000488281, 'test_explained_variance': 0.6126194672744047, 'test_r2': 0.610896777885881, 'test_neg_mean_squared_error': 0.006102849929927288, 'test_neg_mean_absolute_error': 0.05274668924510767}
+--- 0.0359044075012207 seconds ---
+KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+          weights='distance')
+{'fit_time': 0.0015899181365966798, 'score_time': 0.02174539566040039, 'test_explained_variance': 0.6097448865343613, 'test_r2': 0.6077103709056476, 'test_neg_mean_squared_error': 0.006170652133047399, 'test_neg_mean_absolute_error': 0.05099425130395867}
+--- 3.197483777999878 seconds ---
+scaling=minmax, pca_ind=True, pca_c=14, imputing=median
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+{'fit_time': 0.0005984783172607421, 'score_time': 0.000498652458190918, 'test_explained_variance': 0.6125433589919431, 'test_r2': 0.6108201088000079, 'test_neg_mean_squared_error': 0.006103830427223459, 'test_neg_mean_absolute_error': 0.0527509801658456}
+--- 0.02094435691833496 seconds ---
+SGDRegressor(alpha=0.0001, average=False, epsilon=0.1, eta0=0.01,
+       fit_intercept=True, l1_ratio=0.15, learning_rate='invscaling',
+       loss='squared_loss', max_iter=100, n_iter=None,
+       penalty='elasticnet', power_t=0.25, random_state=None, shuffle=True,
+       tol=None, verbose=0, warm_start=False)
+{'fit_time': 0.02971832752227783, 'score_time': 0.000499105453491211, 'test_explained_variance': 0.6127004204845663, 'test_r2': 0.6109849260497215, 'test_neg_mean_squared_error': 0.006102447134840354, 'test_neg_mean_absolute_error': 0.05272307317269859}
+--- 89.4737343788147 seconds ---
+Lasso(alpha=0.0001, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+{'fit_time': 0.0005981683731079102, 'score_time': 0.0006982803344726563, 'test_explained_variance': 0.6126443414575625, 'test_r2': 0.6108970479230168, 'test_neg_mean_squared_error': 0.006104471719903543, 'test_neg_mean_absolute_error': 0.05266347811065949}
+--- 0.03486776351928711 seconds ---
+Ridge(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+{'fit_time': 0.0006979942321777344, 'score_time': 0.0005984306335449219, 'test_explained_variance': 0.612557160514716, 'test_r2': 0.610833979712312, 'test_neg_mean_squared_error': 0.006103739643705191, 'test_neg_mean_absolute_error': 0.05274921493139302}
+--- 0.03390955924987793 seconds ---
+KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+          weights='distance')
+{'fit_time': 0.0017806291580200195, 'score_time': 0.02145397663116455, 'test_explained_variance': 0.6095115185445562, 'test_r2': 0.6074864887207723, 'test_neg_mean_squared_error': 0.006173600477730977, 'test_neg_mean_absolute_error': 0.05100745859296354}
+--- 3.2393710613250732 seconds ---
+scaling=minmax, pca_ind=False, pca_c=0, imputing=mean
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+{'fit_time': 0.009972810745239258, 'score_time': 0.0008979082107543945, 'test_explained_variance': 0.592990695038544, 'test_r2': 0.5907315948693239, 'test_neg_mean_squared_error': 0.006849904886636932, 'test_neg_mean_absolute_error': 0.04936461223178094}
+--- 0.15754437446594238 seconds ---
+SGDRegressor(alpha=0.0001, average=False, epsilon=0.1, eta0=0.01,
+       fit_intercept=True, l1_ratio=0.15, learning_rate='invscaling',
+       loss='squared_loss', max_iter=1000, n_iter=None,
+       penalty='elasticnet', power_t=0.25, random_state=None, shuffle=True,
+       tol=None, verbose=0, warm_start=False)
+{'fit_time': 1.173385500907898, 'score_time': 0.000991511344909668, 'test_explained_variance': 0.6820518294879935, 'test_r2': 0.6793949165917011, 'test_neg_mean_squared_error': 0.005037002299014205, 'test_neg_mean_absolute_error': 0.04721402002137397}
+--- 316.3047478199005 seconds ---
+Lasso(alpha=0.0001, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+{'fit_time': 0.018651580810546874, 'score_time': 0.0008961915969848633, 'test_explained_variance': 0.6805602548256994, 'test_r2': 0.679236292498209, 'test_neg_mean_squared_error': 0.005035777742082356, 'test_neg_mean_absolute_error': 0.0468800206529938}
+--- 0.3370988368988037 seconds ---
+Ridge(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+{'fit_time': 0.007381224632263183, 'score_time': 0.0007971525192260742, 'test_explained_variance': 0.6522035841689017, 'test_r2': 0.6503875791401899, 'test_neg_mean_squared_error': 0.005630224752821104, 'test_neg_mean_absolute_error': 0.0480957319399565}
+--- 0.18350934982299805 seconds ---
+KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=16, p=2,
+          weights='distance')
+{'fit_time': 0.009791803359985352, 'score_time': 0.20314304828643798, 'test_explained_variance': 0.6115780060041105, 'test_r2': 0.6091020733327093, 'test_neg_mean_squared_error': 0.006182199853286967, 'test_neg_mean_absolute_error': 0.05076051798647206}
+--- 29.245789289474487 seconds ---
+scaling=minmax, pca_ind=False, pca_c=0, imputing=median
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+{'fit_time': 0.012567472457885743, 'score_time': 0.0006973505020141602, 'test_explained_variance': 0.5916542681630134, 'test_r2': 0.5893907150677355, 'test_neg_mean_squared_error': 0.0068749246690279, 'test_neg_mean_absolute_error': 0.04937502451299415}
+--- 0.17552995681762695 seconds ---
+SGDRegressor(alpha=0.0001, average=False, epsilon=0.1, eta0=0.01,
+       fit_intercept=True, l1_ratio=0.15, learning_rate='invscaling',
+       loss='squared_loss', max_iter=1000, n_iter=None,
+       penalty='elasticnet', power_t=0.25, random_state=None, shuffle=True,
+       tol=None, verbose=0, warm_start=False)
+{'fit_time': 1.2751516580581665, 'score_time': 0.000876760482788086, 'test_explained_variance': 0.6812639464751907, 'test_r2': 0.67858680248848, 'test_neg_mean_squared_error': 0.0050495661513734625, 'test_neg_mean_absolute_error': 0.047215789932202386}
+--- 328.5151689052582 seconds ---
+Lasso(alpha=0.0001, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+{'fit_time': 0.017652511596679688, 'score_time': 0.0004987239837646485, 'test_explained_variance': 0.6798133694793387, 'test_r2': 0.6784845082342865, 'test_neg_mean_squared_error': 0.00504724875431949, 'test_neg_mean_absolute_error': 0.046893626041299}
+--- 0.3231356143951416 seconds ---
+Ridge(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+{'fit_time': 0.006782126426696777, 'score_time': 0.0006980657577514649, 'test_explained_variance': 0.6514040784509563, 'test_r2': 0.6495847389792548, 'test_neg_mean_squared_error': 0.005643527087983311, 'test_neg_mean_absolute_error': 0.04810014982507315}
+--- 0.17154145240783691 seconds ---
+KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=16, p=2,
+          weights='distance')
+{'fit_time': 0.009680032730102539, 'score_time': 0.21114003658294678, 'test_explained_variance': 0.611483162454415, 'test_r2': 0.6090039337177896, 'test_neg_mean_squared_error': 0.006182632768949802, 'test_neg_mean_absolute_error': 0.050766657198915835}
+--- 29.859376668930054 seconds ---
+scaling=standard, pca_ind=True, pca_c=14, imputing=mean
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+{'fit_time': 0.0007980108261108398, 'score_time': 0.000598287582397461, 'test_explained_variance': 0.5934678666792912, 'test_r2': 0.5918119965971121, 'test_neg_mean_squared_error': 0.4179529952809351, 'test_neg_mean_absolute_error': 0.4117474789518396}
+--- 0.02194070816040039 seconds ---
+SGDRegressor(alpha=0.0001, average=False, epsilon=0.1, eta0=0.01,
+       fit_intercept=True, l1_ratio=0.15, learning_rate='invscaling',
+       loss='huber', max_iter=10, n_iter=None, penalty='l1', power_t=0.25,
+       random_state=None, shuffle=True, tol=None, verbose=0,
+       warm_start=False)
+{'fit_time': 0.0030916452407836912, 'score_time': 0.0005983352661132812, 'test_explained_variance': 0.5954028179087778, 'test_r2': 0.5854049775972776, 'test_neg_mean_squared_error': 0.4229884507168227, 'test_neg_mean_absolute_error': 0.3939709872814997}
+--- 93.89905071258545 seconds ---
+Lasso(alpha=0.01, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+{'fit_time': 0.0004987239837646485, 'score_time': 0.0006981849670410156, 'test_explained_variance': 0.6070946996222192, 'test_r2': 0.6055390217072104, 'test_neg_mean_squared_error': 0.399534253124349, 'test_neg_mean_absolute_error': 0.40941493061045653}
+--- 0.035904645919799805 seconds ---
+Ridge(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+{'fit_time': 0.0005981922149658203, 'score_time': 0.0004988670349121094, 'test_explained_variance': 0.593473345990015, 'test_r2': 0.5918175263348634, 'test_neg_mean_squared_error': 0.41794579251626685, 'test_neg_mean_absolute_error': 0.41174645375557184}
+--- 0.035903215408325195 seconds ---
+KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=12, p=2,
+          weights='distance')
+{'fit_time': 0.0018957138061523437, 'score_time': 0.027924275398254393, 'test_explained_variance': 0.6121545208090509, 'test_r2': 0.6087959598388495, 'test_neg_mean_squared_error': 0.3890134159211359, 'test_neg_mean_absolute_error': 0.3996263419049442}
+--- 4.279909372329712 seconds ---
+scaling=standard, pca_ind=True, pca_c=14, imputing=median
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+{'fit_time': 0.0005987167358398437, 'score_time': 0.0005983591079711914, 'test_explained_variance': 0.593139207552583, 'test_r2': 0.5914802090347628, 'test_neg_mean_squared_error': 0.41832077021284053, 'test_neg_mean_absolute_error': 0.41180196067212205}
+--- 0.021941423416137695 seconds ---
+SGDRegressor(alpha=0.0001, average=False, epsilon=0.1, eta0=0.01,
+       fit_intercept=True, l1_ratio=0.15, learning_rate='invscaling',
+       loss='huber', max_iter=10, n_iter=None, penalty='l1', power_t=0.25,
+       random_state=None, shuffle=True, tol=None, verbose=0,
+       warm_start=False)
+{'fit_time': 0.003408050537109375, 'score_time': 0.0003818035125732422, 'test_explained_variance': 0.5952173132705334, 'test_r2': 0.585205257866933, 'test_neg_mean_squared_error': 0.42318542847430135, 'test_neg_mean_absolute_error': 0.39401174228649755}
+--- 94.18367218971252 seconds ---
+Lasso(alpha=0.01, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+{'fit_time': 0.0005982637405395508, 'score_time': 0.000598907470703125, 'test_explained_variance': 0.6069014027171026, 'test_r2': 0.6053438870446849, 'test_neg_mean_squared_error': 0.3997179993955971, 'test_neg_mean_absolute_error': 0.409468871239891}
+--- 0.034909963607788086 seconds ---
+Ridge(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+{'fit_time': 0.0005982160568237304, 'score_time': 0.0005985260009765625, 'test_explained_variance': 0.5931447114788824, 'test_r2': 0.5914857636582587, 'test_neg_mean_squared_error': 0.41831353425516227, 'test_neg_mean_absolute_error': 0.41180093282964425}
+--- 0.03390645980834961 seconds ---
+KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=12, p=2,
+          weights='distance')
+{'fit_time': 0.0017892122268676758, 'score_time': 0.027726244926452637, 'test_explained_variance': 0.6118635909179047, 'test_r2': 0.6085273019278816, 'test_neg_mean_squared_error': 0.38929447694223546, 'test_neg_mean_absolute_error': 0.3997046295402015}
+--- 4.0003015995025635 seconds ---
+scaling=standard, pca_ind=False, pca_c=0, imputing=mean
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+{'fit_time': 0.011568689346313476, 'score_time': 0.0005985260009765625, 'test_explained_variance': 0.5889564728656794, 'test_r2': 0.5867530744453842, 'test_neg_mean_squared_error': 0.43570496679485815, 'test_neg_mean_absolute_error': 0.39334809667674897}
+--- 0.16452574729919434 seconds ---
+SGDRegressor(alpha=0.0001, average=False, epsilon=0.1, eta0=0.01,
+       fit_intercept=True, l1_ratio=0.15, learning_rate='invscaling',
+       loss='huber', max_iter=10, n_iter=None, penalty='l1', power_t=0.25,
+       random_state=None, shuffle=True, tol=None, verbose=0,
+       warm_start=False)
+{'fit_time': 0.021640563011169435, 'score_time': 0.0010984420776367187, 'test_explained_variance': 0.6491101467788705, 'test_r2': 0.6394410329336064, 'test_neg_mean_squared_error': 0.3655378293311048, 'test_neg_mean_absolute_error': 0.365742196036788}
+--- 381.1049540042877 seconds ---
+
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\linear_model\coordinate_descent.py:491: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
+  ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\linear_model\coordinate_descent.py:491: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
+  ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\linear_model\coordinate_descent.py:491: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
+  ConvergenceWarning)
+
+Lasso(alpha=0.01, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+{'fit_time': 0.01386275291442871, 'score_time': 0.0010178804397583008, 'test_explained_variance': 0.6680532126200659, 'test_r2': 0.6667745067418933, 'test_neg_mean_squared_error': 0.33422546954403026, 'test_neg_mean_absolute_error': 0.3729873059490637}
+--- 0.5964057445526123 seconds ---
+Ridge(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+{'fit_time': 0.007281303405761719, 'score_time': 0.0006978511810302734, 'test_explained_variance': 0.5936831695751446, 'test_r2': 0.5914449945434173, 'test_neg_mean_squared_error': 0.43132356601764704, 'test_neg_mean_absolute_error': 0.3915943026099509}
+--- 0.19547653198242188 seconds ---
+KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=16, p=2,
+          weights='distance')
+{'fit_time': 0.010971570014953613, 'score_time': 0.29352121353149413, 'test_explained_variance': 0.6078603429262849, 'test_r2': 0.6040074254707611, 'test_neg_mean_squared_error': 0.3958736657264078, 'test_neg_mean_absolute_error': 0.395308585269019}
+--- 39.816545486450195 seconds ---
+scaling=standard, pca_ind=False, pca_c=0, imputing=median
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+{'fit_time': 0.015458941459655762, 'score_time': 0.0008974075317382812, 'test_explained_variance': 0.5919532168243503, 'test_r2': 0.5896120810769805, 'test_neg_mean_squared_error': 0.43353133906934416, 'test_neg_mean_absolute_error': 0.392780121631661}
+--- 0.2353355884552002 seconds ---
+SGDRegressor(alpha=0.0001, average=False, epsilon=0.1, eta0=0.01,
+       fit_intercept=True, l1_ratio=0.15, learning_rate='invscaling',
+       loss='huber', max_iter=10, n_iter=None, penalty='l1', power_t=0.25,
+       random_state=None, shuffle=True, tol=None, verbose=0,
+       warm_start=False)
+{'fit_time': 0.0324141263961792, 'score_time': 0.0023952722549438477, 'test_explained_variance': 0.6484448530390364, 'test_r2': 0.6387210411422004, 'test_neg_mean_squared_error': 0.3662786029081475, 'test_neg_mean_absolute_error': 0.36568574952714256}
+--- 385.89417028427124 seconds ---
+
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\linear_model\coordinate_descent.py:491: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
+  ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\linear_model\coordinate_descent.py:491: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
+  ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\linear_model\coordinate_descent.py:491: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
+  ConvergenceWarning)
+
+Lasso(alpha=0.01, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+{'fit_time': 0.019846844673156738, 'score_time': 0.0010970115661621093, 'test_explained_variance': 0.6671186839705456, 'test_r2': 0.6658326714868681, 'test_neg_mean_squared_error': 0.335165569084612, 'test_neg_mean_absolute_error': 0.3730220148465187}
+--- 1.160895586013794 seconds ---
+Ridge(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+{'fit_time': 0.013718819618225098, 'score_time': 0.001893901824951172, 'test_explained_variance': 0.5924081278894251, 'test_r2': 0.5901531934513368, 'test_neg_mean_squared_error': 0.43283013825313654, 'test_neg_mean_absolute_error': 0.39170572776908574}
+--- 0.2758054733276367 seconds ---
+KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=16, p=2,
+          weights='distance')
+{'fit_time': 0.011474251747131348, 'score_time': 0.2972536087036133, 'test_explained_variance': 0.6074739922911526, 'test_r2': 0.6036548726758164, 'test_neg_mean_squared_error': 0.39620197365490684, 'test_neg_mean_absolute_error': 0.39541880432395776}
+--- 48.33884072303772 seconds ---
